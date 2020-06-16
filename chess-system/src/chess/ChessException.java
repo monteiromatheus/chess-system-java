@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boardgame;
+package chess;
 
 /**
  *
  * @author Matheus
  */
-public class BoardException extends RuntimeException{
+public class ChessException extends RuntimeException {
     
-    public BoardException(String msg){
-        super(msg);  
+    public ChessException(String msg){
+        
+        super(msg);
     }
+    
 }
